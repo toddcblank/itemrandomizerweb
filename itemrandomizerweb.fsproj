@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="app.fs" />
+    <Compile Include="app.fsx" />
     <!-- <Compile Include="Program.fs" /> -->
   </ItemGroup>
 
