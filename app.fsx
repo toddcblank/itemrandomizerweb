@@ -5,6 +5,9 @@ if not (System.IO.File.Exists "paket.exe") then let url = "https://github.com/fs
 Paket.Dependencies.Install (System.IO.File.ReadAllText "paket.dependencies")
 #endif
 
+#I "packages/Suave/lib/net40"
+#r "packages/Suave/lib/net40/Suave.dll"
+
 open Suave
 open Suave.Successful 
 open Suave.Filters
