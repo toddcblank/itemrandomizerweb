@@ -1,0 +1,9 @@
+{
+    "name": "Heroku Deployable Total SM Randomizer",
+    "description": "A fork of Total's SM Randomizer that's deployable via heroku",
+    "repository": "https://github.com/toddcblank/itemrandomizerweb",
+    "logo": "https://github.com/SuaveIO/resources/raw/master/images/head_trans.png",
+    "env": {
+      "BUILDPACK_URL": "https://github.com/SuaveIO/mono-script-buildpack.git"
+    }
+  }
